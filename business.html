@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dendy's Business</title>
+    <style>
+        body{
+            background-image: url(../exercise2-dendyaprilianza-html/images/backgroundweb.jpg);
+        }
+        /* style agar memiliki background color pada navigasi bar */
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #373150;
+        }
+        /* agar navigasi bar berada pada sebelah kiri */
+        li {
+          float: left;
+        }
+        li a{
+            display: block;
+            padding: 8px;
+            background-color: #373150;
+            font-size: 18px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color:#efe2ba;
+        }
+        div a{
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        div img{
+            opacity: 0.7;
+        }
+        div img:hover{
+            opacity: 1.0;
+        }
+        div p{
+            display: flex;
+            justify-content: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 15px;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+            font-family: 'Trebuchet MS';
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li style="margin-left: 10px;"><a href="home.html">HOME</a></li>
+            <li><a href="business.html">BUSINESS</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li style="float: right; margin-right: 15px;"><a class="" href="about.html">ABOUT</a></li>
+        </ul>
+    </nav>
+    <h1 style="color:#373150 ;">FOOD AND BEVERAGES</h1>
+    <div class="content">
+        <a href="https://www.instagram.com/rauchen.smokehouse/">
+            <img style="width: 200px; height: 200px;" src="../exercise2-dendyaprilianza-html/images/rauchen.jpeg" alt="RauchenSmokeHouse">
+        </a>
+        <p>Rauchen Smoke House</p>
+        <a href="https://www.instagram.com/komiracoffee/">
+            <img style="width: 200px;height: 200px;"src="../exercise2-dendyaprilianza-html/images/komira.jpeg" alt="Komira">
+        </a>
+        <p>Komira Coffee&Tea</p>
+    </div>
+</body>
+</html>
